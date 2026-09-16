@@ -1,0 +1,32 @@
+{
+  "manifest_version": "1.0",
+  "org": "modern-go",
+  "repo": "concurrent",
+  "versions": [
+    {
+      "commit": "bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94",
+      "parsed_at": "2026-09-16T09:36:10.015635+00:00",
+      "tag": "1.0.3",
+      "filetree": "filetree/bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94.nq.gz",
+      "blobs": [
+        "blob/acab3200aa2e470c2bdd35ccfd9b9111f7c978e9.nq.gz",
+        "blob/16ba3e5f7d48f875135998d2cc7f8a743c6c3439.nq.gz",
+        "blob/fe86e84a39c8ff9a9dbbbd89e434b27d325f6735.nq.gz",
+        "blob/b9c8df7f4101b6270690d9f6526c6e2466109d78.nq.gz",
+        "blob/9756fcc75a79cb0af9b4049ed5543a3496d2b3a6.nq.gz",
+        "blob/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64.nq.gz",
+        "blob/aeabf8c4f9c808648014f38bbb7919ab31b25e72.nq.gz",
+        "blob/623dba1ac00f22d1becb9e67e8a26a5b20bc2799.nq.gz",
+        "blob/d1e6b2ec554450c3565764a8238b54ee9dcd7776.nq.gz",
+        "blob/449e67cd01acba105df358ccac3c32f0693f3f1a.nq.gz",
+        "blob/3f2bc47416e77ca0771c85d681d782d2201096ae.nq.gz",
+        "blob/05a77dceb1e23e95882e18ed707fb682fbdeec44.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
