@@ -1,0 +1,14 @@
+[2026-09-16T09:39:33Z] === ENRICH ITERATION 1 START | repo=modern-go/concurrent sha=bacd9c7e ===
+[2026-09-16T09:39:33Z] [iter=1] PHASE START: enrich repo=modern-go/concurrent sha=bacd9c7e runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/bacd9c7e-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94.nq.gz
+[2026-09-16T09:39:33Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-09-16T09:39:38Z] [iter=1] AST store loaded triples=8053 load_secs=5 mem_mb=98 MB
+[2026-09-16T09:39:38Z] [iter=1] Step 2: Finding LSP targets mem_mb=98 MB
+[2026-09-16T09:39:38Z] [iter=1] LSP targets found call_sites=63 imports=0 extends=0 implements=0 secs=0
+[2026-09-16T09:39:38Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=98 MB
+[2026-09-16T09:39:38Z] [iter=1] Position index built positions=530 nodes_with_types=637 secs=0 mem_mb=98 MB
+[2026-09-16T09:39:38Z] [iter=1] Step 3: Starting LSP resolution mem_mb=98 MB already_completed_types=[] already_completed_files=0
+[2026-09-16T09:39:38Z] [iter=1] Resolving target type target_type=call_site count=63
+[2026-09-16T09:39:40Z] [iter=1] Target type resolved target_type=call_site resolved=0 errors=63 secs=2 mem_mb=98 MB
+[2026-09-16T09:39:40Z] [iter=1] Step 5: Writing final enrichment file triples=0
+[2026-09-16T09:39:40Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94.nq.gz size_kb=0
+[2026-09-16T09:39:40Z] [iter=1] PHASE END: enrich elapsed_s=7 elapsed_min=0.1 total_triples=0
